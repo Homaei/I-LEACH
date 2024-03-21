@@ -10,7 +10,7 @@ function clusterModel = newCluster(netArch, nodeArch, clusterFun, clusterFunPara
     %
     % Output:
     % clusterModel - The updated cluster model after applying the specified clustering function.
-
+    %
     % Store the network and node architectures in the cluster model.
     clusterModel.netArch = netArch;
     clusterModel.nodeArch = nodeArch;
